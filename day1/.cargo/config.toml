@@ -1,0 +1,9 @@
+[build]
+rustflags = ["-C", "target-cpu=native"]
+
+[alias]
+b = "build"
+c = "check"
+t = "test"
+r = "run"
+rr = "run --release"
