@@ -8,7 +8,7 @@ fn part_b(_input: String) -> usize {
     0
 }
 
-#[aocd(${year}, ${day})]
+#[aocd({{year}}, {{day}})]
 fn main() {
     submit!(1, part_a(input!()));
     submit!(2, part_b(input!()));
